@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip basedir="/Users/Phumi/eclipse-workspace/UpdateProject" excludes="target/**" destfile="C:/UpgradeChallengeProject.zip"/>
+</target>
+</project>

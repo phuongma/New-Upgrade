@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42635" started-at="2020-02-26T14:13:31 EST" finished-at="2020-02-26T14:14:14 EST">
+    <groups>
+    </groups>
+    <test name="Upgrade POC" duration-ms="42635" started-at="2020-02-26T14:13:31 EST" finished-at="2020-02-26T14:14:14 EST">
+      <class name="runners.TestBaseClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:runners.TestBaseClass@6caf0677]" name="beforeSuite" is-config="true" duration-ms="559" started-at="2020-02-26T14:13:31 EST" finished-at="2020-02-26T14:13:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="myWebTest()[pri:0, instance:runners.TestBaseClass@6caf0677]" name="myWebTest" duration-ms="40795" started-at="2020-02-26T14:13:31 EST" finished-at="2020-02-26T14:14:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myWebTest -->
+        <test-method status="PASS" signature="validateProductType()[pri:0, instance:runners.TestBaseClass@6caf0677]" name="validateProductType" duration-ms="1079" started-at="2020-02-26T14:14:12 EST" finished-at="2020-02-26T14:14:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductType -->
+        <test-method status="PASS" signature="validateResponseCode200()[pri:0, instance:runners.TestBaseClass@6caf0677]" name="validateResponseCode200" duration-ms="508" started-at="2020-02-26T14:14:13 EST" finished-at="2020-02-26T14:14:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCode200 -->
+        <test-method status="PASS" signature="validateResponseCode401()[pri:0, instance:runners.TestBaseClass@6caf0677]" name="validateResponseCode401" duration-ms="166" started-at="2020-02-26T14:14:14 EST" finished-at="2020-02-26T14:14:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCode401 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:runners.TestBaseClass@6caf0677]" name="afterSuite" is-config="true" duration-ms="3" started-at="2020-02-26T14:14:19 EST" finished-at="2020-02-26T14:14:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- runners.TestBaseClass -->
+    </test> <!-- Upgrade POC -->
+  </suite> <!-- Suite -->
+</testng-results>
